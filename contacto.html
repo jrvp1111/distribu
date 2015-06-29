@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Distribuidora de Occidente</title>
+    <link rel="shortcut icon" href="images/basic_favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <script src="js/jquery.js"></script>
+    <script src="jquery-1.10.1.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
+    <!--este es para el slideshow-->
+    <script type="text/jscript" src="script.js"></script>
+</head>
+<body>
+
+
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php">Distribuidora de Occidente</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>  
+        <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categorias<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li id="submenuRefrigeracion" class="dropdown-submenu">
+                         <a tabindex="-1" href="#">Refrigeracion</a>
+                            <ul class="dropdown-menu">
+                                <!--el tab index es para que ala hora de navegar con el tab, nos mueva por orden que selecccionemos-->
+                                <li><a tabindex="-1" href="#">Deltatrak</a></li>
+                                <li><a tabindex="-2" href="#">Cortinas Hawaianas</a></li>
+                                <li><a tabindex="-3" href="#">Taylor</a></li>
+                                <li class="dropdown-submenu">
+                                   <a href="#">Kestrel</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="#">TermoAnemometros</a></li>
+                                          <li><a href="#"></a></li>
+                                      </ul>
+                                </li>
+                            </ul>
+                    </li>
+                    <!--usa estilos css  misestilos.css-->
+                    <li id="submenuAgricola" class="dropdown-submenu">
+                         <a tabindex="-1" href="#">Agricola</a>
+                            <ul class="dropdown-menu">
+                                <!--el tab index es para que ala hora de navegar con el tab, nos mueva por orden que selecccionemos-->
+                                <li><a tabindex="-1" href="#">Dosificador</a></li>
+                                <li><a tabindex="-2" href="#">GLA</a></li>
+                                <li class="dropdown-submenu">
+                                   <a href="#">Kestrel</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="#">TermoAnemometros</a></li>
+                                          <li><a href="#"></a></li>
+                                      </ul>
+                                </li>
+                            </ul>
+                    </li>
+                  <li><a href="#">Limpieza</a></li>
+                  <li><a href="#">Computo</a></li>
+                  <li><a href="#">Ferretero</a></li>
+                </ul>
+        </li>
+        <li><a href="contacto.html">Contácto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12"><br><br><br></div>
+  </div>
+  
+</div>
+  
+  <!--aqui ponemos div del la barra del logo-->
+  <div class="color1">
+    <div class="container">
+      <div class="row">
+        <!--aqui ponemos el logo-->
+        <div class="col-xs-3 text-center">
+          <img class="img-responsive" src="images/logoDistribuidoradeOccidente.png">
+        </div>
+
+        <div class="col-xs-9 text-center"> 
+          <!--slideshow-->
+                   <div id="slideshow">
+                       <div>                    
+                        <!--para que las imagenes sean responsivas le agregamos a la etiqueta img -->
+                        <!-- class="img-responsive"--> 
+                          <img class="img-responsive color1" src="images/501ES2-med.png">
+                       </div>
+
+                       <div>
+                            <img class="img-responsive color1" src="images/kestrel4300-1m.png">  
+                       </div>  
+
+                       <div>
+                            <img class="img-responsive color1" src="images/TP-LINK_TL-PB10400.png">
+                       </div>              
+                   </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+<!--aqui acaba el slideshow-->
+
+    <section>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+             <h1 >Contáctanos</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-4 text-left">
+        <p><strong>Direccion: Rio Zuaque # 980 Col. Rosales <br>C.P. 80230 Culiacán, Sinaloa <br>Tel:(667) 716 4522<br>Tel: 01(800)849 2010 <br>E-Mail: <a href="mailto:sergio_valenzuela@prodigy.net.mx">sergio_valenzuela@prodigy.net.mx</p></strong></a><br><br><img src="images\MEXICOLADASINCOSTOchico.png">
+      </div>
+      <div class="col-xs-8">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.996569339696!2d-107.38794600000003!3d24.795571000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcd0b5aa54ea45%3A0x75d4f41293385bdf!2sDistribuidora+de+Occidente!5e0!3m2!1ses!2smx!4v1432841444745" width="400" height="300" frameborder="0" style="border:0"></iframe>
+      </div>
+    </div>
+  </div>
+   
+
+    </section>
+
+    <footer class="container-fluid">
+       <div class="row">
+          <div class="col-xs-12  color7 text-center">
+          <h4><font color="white">Derechos reservados &copy;</font></h4>
+        </div>
+      </div>
+    </footer>
+
+
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

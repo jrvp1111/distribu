@@ -1,0 +1,163 @@
+
+
+.tamanoletra14{
+    font-size: 14px;
+}
+
+.tamanoletra13{
+    font-size: 13px;
+}
+
+.tamanoletra12{
+    font-size: 12px;
+}
+
+.tamanoletra11 {
+    font-size: 11px;
+}
+
+.tamanoletra1 {
+	font-size: 15px;
+}
+
+.color8{
+    background-color: #F5FFFF;
+    /*este color lo aplico para el fondo de las imagenes del catalogo*/
+}
+
+.color7{
+	background-color: #034381;
+    /*lo aplico al footer*/
+}
+
+
+.color1{
+	background-color: #E0FFFF;
+    /*se aplica al fondo del slideshow*/
+}
+
+/*
+.color2{
+	background-color: #66d9ef;
+}
+
+.color3{
+	background-color: #a1e9f7;
+}
+
+.color4{
+	color: #104494;    
+}
+
+.color5{
+    background-color: white}
+
+.color6{
+    background-color: red}
+}
+*/
+
+header div div div h1{
+	color:white;
+}
+
+
+.margenliga{
+	margin: 1%;
+}
+
+table{
+	/*es para centrar la tabla del menu de nav*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+/*
+#slideshow{
+    margin: 1px auto;
+    position:relative;
+    width:5px;
+    height:5px;
+    padding:10px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.4);
+}
+*/
+
+
+/*esto hace qye se reproduscan las imagenes en la misma posicion*/
+#slideshow > div{
+ position: absolute;
+ top:0px;
+ left:0px;
+ right:0px;
+ bottom:00px;
+}
+
+#slider{
+	height: 400px;
+}
+#slider img{
+	display: none;
+}
+#slider img:nth-child(1){
+	display: block;
+}
+
+
+/*multilevel menu*/
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*acaba el multilevel submenu*/
+

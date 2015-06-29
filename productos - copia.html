@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Distribuidora de Occidente</title>
+    <link rel="shortcut icon" href="images/basic_favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <script src="js/jquery.js"></script>
+    <script src="jquery-1.10.1.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
+    <!--este es para el slideshow-->
+    <script type="text/jscript" src="script.js"></script>
+</head>
+<body>
+
+
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php">Distribuidora de Occidente</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>  
+        <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categorias<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li id="submenuRefrigeracion" class="dropdown-submenu">
+                         <a tabindex="-1" href="#">Refrigeracion</a>
+                            <ul class="dropdown-menu">
+                                <!--el tab index es para que ala hora de navegar con el tab, nos mueva por orden que selecccionemos-->
+                                <li><a tabindex="-1" href="#">Deltatrak</a></li>
+                                <li><a tabindex="-2" href="#">Cortinas Hawaianas</a></li>
+                                <li><a tabindex="-3" href="#">Taylor</a></li>
+                                <li class="dropdown-submenu">
+                                   <a href="#">Kestrel</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="#">TermoAnemometros</a></li>
+                                          <li><a href="#"></a></li>
+                                      </ul>
+                                </li>
+                            </ul>
+                    </li>
+                    <!--usa estilos css  misestilos.css-->
+                    <li id="submenuAgricola" class="dropdown-submenu">
+                         <a tabindex="-1" href="#">Agricola</a>
+                            <ul class="dropdown-menu">
+                                <!--el tab index es para que ala hora de navegar con el tab, nos mueva por orden que selecccionemos-->
+                                <li><a tabindex="-1" href="#">Dosificador</a></li>
+                                <li><a tabindex="-2" href="#">GLA</a></li>
+                                <li class="dropdown-submenu">
+                                   <a href="#">Kestrel</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="#">TermoAnemometros</a></li>
+                                          <li><a href="#"></a></li>
+                                      </ul>
+                                </li>
+                            </ul>
+                    </li>
+                  <li><a href="#">Limpieza</a></li>
+                  <li><a href="#">Computo</a></li>
+                  <li><a href="#">Ferretero</a></li>
+                </ul>
+        </li>
+        <li><a href="contacto.html">Contácto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<!--puse este container para que no se juntara el slideshow con el menu-->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12"><br><br><br></div>
+  </div>
+  
+</div>
+  
+  <!--aqui ponemos div del la barra del logo-->
+  <div class="color1">
+    <div class="container">
+      <div class="row">
+        <!--aqui ponemos el logo-->
+        <div class="col-xs-3 text-center">
+          <img class="img-responsive" src="images/logoDistribuidoradeOccidente.png">
+        </div>
+
+        <div class="col-xs-9 text-center"> 
+          <!--slideshow-->
+                   <div id="slideshow">
+                       <div>                    
+                        <!--para que las imagenes sean responsivas le agregamos a la etiqueta img -->
+                        <!-- class="img-responsive"--> 
+                          <img class="img-responsive color1" src="images/501ES2-med.png">
+                       </div>
+
+                       <div>
+                            <img class="img-responsive color1" src="images/kestrel4300-1m.png">  
+                       </div>  
+
+                       <div>
+                            <img class="img-responsive color1" src="images/TP-LINK_TL-PB10400.png">
+                       </div>              
+                   </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+<!--aqui acaba el slideshow-->
+
+
+    <section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 text-center"><h1>Catálogo de Productos</h1></div>
+    </div>
+  </div>
+
+
+
+<!--..............inician las imagenes de los productos.......................-->
+  <div class="container-fluid">
+
+
+
+
+      <!--etiqueta que separa los productos de categoria-->
+<div class="alert alert-info" align="center"><strong>Productos Deltatrak </strong>Termometros</div>
+
+
+
+  <!--inician las filas para colocar imagenes-->
+    <div class="row">
+
+<!--....................inicio columna  1/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+              <tr><td><img src="images\deltatrak\deltatrakLogo.jpg" class="img-thumbnail" class="img-responsive" width="150" height="150" id="logodeltatrak"></td></tr>          
+             <tr><td>Deltatrak</td></tr>
+             <tr><td>Termometros <br>Higrometro</td></tr>
+             <tr><td>Graficadores</td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modallododeltatrak">Info</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modallododeltatrak" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>
+                            <strong>DeltaTrak</strong> es un líder innovador en las soluciones de la cadena fría y control de temperatura. La línea de productos incluye una amplia gama de registradores de datos de temperatura y humedad y sistemas inalámbricos. También desarrolla y fabrica instrumentos portátiles para pruebas de alta calidad que monitorean y registran la temperatura y humedad. Los sistemas de administración de cadena de frío también incluyen sondas digitales y termómetros infrarrojos.</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  1/4...................................--> 
+      </div>
+
+
+
+
+  <!--..............................................................................................................-->
+
+
+
+
+
+  <!--............................ columna  2/4...............................-->  
+      <div class="col-xs-3 text-center">
+         <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\termoHigrometro.jpg" class="img-thumbnail" width="150" height="150" id="13307"></td></tr>          
+             <tr><td>#13307</td></tr>
+             <tr><td>Termo- <br>Higrometro</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal13307">Info</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal13307" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Los termo-higrómetros son valiosas herramientas de mantenimiento preventivo y de aseguramiento de la calidad para el control de la temperatura y lecturas de humedad relativa en invernaderos, salas de engorde, incubadoras, salas limpias, salas de proceso y laboratorios químicos. Ambos cuentan con una pantalla de LCD, interruptor para °F / °C y un registro de lecturas mínimas/´máximas. <br><br>Monitoree la temperatura y humedad relativa en los hospitales, farmacias, bancos de sangre, invernaderos, casas de engorde, incubadoras, salas limpias y cámaras frigoríficas con el Termo-Higrómetro con Pantalla Jumbo, modelo 13307. Cuenta con una pantalla LCD de gran tamaño, con escala intercambiable de °F/°C, memorias mínimas/máximas de lecturas, opción de ajuste de alarma congelante y aguja de termistor externo con cable de extensión. <br><br>
+
+                           <strong>Aplicaciones:</strong> Se utilizan para monitorear las condiciones ambientales durante la distribución de alimentos y en las áreas de almacenamiento, cámaras de maduración, invernaderos y más.
+
+<!--&#8226; sirve para poner el punto medio-->
+<ul>&#8226;Incluye una alerta de congelación.</ul>
+<ul>&#8226;Cuenta con escala seleccionable °C / °F.</ul>
+<ul>&#8226;Con sensores de temperatura internos/externos.</ul>
+<ul>&#8226;Internal humidity sensor</ul>
+<ul>&#8226;Cuenta con una pantalla jumbo para la temperatura y humedad</ul>
+<ul>&#8226;Cuenta con una memoria Min/Max – Almacenamiento de las lecturas más bajas y más altas para una recuperación instantánea.</ul>
+<ul>&#8226;Es un instrumento de control de calidad y también es un instrumento de prueba cuando se requiere el monitoreo de temperatura y humedad constante.</ul>
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  2/4...................................--> 
+      </div>
+
+
+
+
+
+<!--..........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  3/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\11050-termometroTipoPaleta.jpg" class="img-thumbnail" width="150" height="150" id="11050"></td></tr>
+             <tr><td>#11050</td></tr>
+             <tr><td>Termometro <br>T/Paleta</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal11050">Info</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal11050" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Termómetro Digital Lollipop Min/Max resistente al agua con auto-calibración (Modelo 11050) es ideal para lavaplatos comerciales. Con la nueva característica de auto-calibración y la función min/max del termómetro, los usuarios pueden verificar y cuantificar rápidamente la temperatura del enjuague final en lava ollas y lavaplatos comerciales. <br><br>
+
+                            <strong>Aplicaciones:</strong> Se utiliza para medir la temperatura de los alimentos que se están cocinando, refrigerando o conservando. Ideal para el uso en lavaplatos comerciales.
+
+<ul>&#8226;Cuenta con una escala seleccionable °C/°F</ul>
+<ul>&#8226;Con una memoria de lectura Min/Max</ul>
+<ul>&#8226;El instrumento puede ser auto calibrado, Certificado NSF</ul>
+<ul>&#8226;Se puede ver a través de la cubierta de la aguja con el clip de bolsillo de la parte posterior</ul>
+<ul>&#8226;Incluye una cubierta a prueba de agua - completamente sumergible</ul>
+<ul>&#8226;Cuenta con un registro continuo de temperatura min/max, hasta que el termómetro se apague o se reinicie</ul>
+<ul>&#8226;Aguja de diámetro pequeño ideal para la medición de temperatura de los alimentos de “masa delgada” tales como empanadas de carne y filetes de pollo/pescado (Código Alimentario FDA 4-302.12(B))</ul>
+
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  3/4...................................--> 
+      </div>
+
+
+
+
+<!--...........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  4/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\11061.jpg" class="img-thumbnail" width="150" height="150" id="11061"></td></tr>
+             <tr><td>#11061</td></tr>
+             <tr><td>Termometro <br>Industrial</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal11061">Info</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal11061" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Este Termómetro de Aguja Digital de Bolsillo, único y de última generación, está diseñado para establecer el estándar de la industria para precisión, durabilidad y legibilidad. Se ha diseñado y construido bajo los estándares más exigentes para satisfacer y superar las especificaciones necesarias para usos comerciales y profesionales. <br><br>
+
+<ul>&#8226;Cuenta con una nueva función de “Auto-Calibración”.</ul>
+<ul>&#8226;La aguja de punta reducida proporciona menos de seis (6) segundos en tiempo de respuesta.</ul>
+<ul>&#8226;Incluye una cubierta de la aguja con un imán diseñado para adjuntar el termómetro a la ventilación.</ul>
+<ul>&#8226;Con una construcción uniforme sellada y cumplimiento RoHS.</ul>
+<ul>&#8226;Instrumento resistente al agua y resistente a la grasa (IP56).</ul>
+<ul>&#8226;Incluye una correa de velcro que asegura el termómetro a las tuberías refrigerantes.</ul>
+<ul>&#8226;Incluye una funda de color amarillo de alta visibilidad.</ul>
+<ul>&#8226;PATENTE No. 5,709,476; 5,801,968</ul>
+</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna del row 4/4...................................--> 
+      </div>
+      
+    
+  <!--.................................fin del row........................................-->  
+    </div> 
+
+
+
+
+
+
+
+  <!--inician las filas para colocar imagenes-->
+    <div class="row">
+<!--....................inicio columna  1/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+              <tr><td><img src="images\deltatrak\11062.jpg" class="img-thumbnail" class="img-responsive" width="150" height="150" id="11062"></td></tr>          
+             <tr><td>#11062</td></tr>
+             <tr><td>Termómetro <br>P/Laboratorio</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal11062">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal11062" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El termómetro digital de aguja con pantalla jumbo, único y de última generación, está diseñado para establecer en la industria el estándar para la precisión y la durabilidad. Ideal para el uso científico, de laboratorio y veterinario. <br> <br> Ideal para el uso científico, de laboratorio y veterinario!
+
+<ul>&#8226;Cuenta con una nueva función de “Auto Calibración”.</ul>
+<ul>&#8226;Cuenta con una pantalla LCD jumbo de escala dual altamente visible.</ul>
+<ul>&#8226;Aguja pequeña de punta redonda de acero inoxidable (0.1 pulg. / 2.3 mm de diámetro).</ul>
+<ul>&#8226;Con una construcción uniforme sellada y cumplimiento RoHS.</ul>
+<ul>&#8226;Instrumento resistente al agua y lavable.</ul>
+</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  1/4...................................--> 
+      </div>
+
+
+
+
+  <!--..............................................................................................................-->
+
+
+
+
+
+  <!--............................ columna  2/4...............................-->  
+      <div class="col-xs-3 text-center">
+         <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\16100.jpg" class="img-thumbnail" width="150" height="150" id="16100"></td></tr>          
+             <tr><td>#16100</td></tr>
+             <tr><td>Graficador <br>Desechable</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal16100">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal16100" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Termógrafo de Temperatura En-Tránsito de DeltaTrak, modelos (16000-16502) y los modelos que cumplen con RoHS (16000-1 y 16502-1), son tiras gráficas de registro de tiempo y temperatura altamente confiables y se utilizan para registrar condiciones ambientales encontradas durante el almacenamiento y transporte de alimentos, productos farmacéuticos, productos químicos y otros productos sensibles a la temperatura en camiones refrigerados, vagones de ferrocarril, contenedores marítimos y aéreos. <br><br>
+
+Los modelos de Termógrafos de Temperatura En-Tránsito están especialmente diseñados a base de una cubierta ligera y durable para lograr una circulación de aire superior y de respuesta de la temperatura más rápida. Estos termógrafos proporcionan la máxima precisión y generan un registro permanente de las condiciones de tránsito en una tira de papel de 36 pulgadas (91 cm). Un puerto de vista permite al operador confirmar visualmente la activación después de tirar la pestaña de inicio del registrador gráfico de temperatura. <br><br>
+Los registros permanentes producidos por estos termógrafos de temperatura sirven como pruebas de corroboración en las reclamaciones de seguros, documentación de control de calidad y la protección de sus valiosos productos. Los modelos están disponibles a partir de 5 días a 90 días para los períodos en tránsito con tres intervalos de temperatura.</p> <br>
+ <div>
+<table class="table table-hover">
+        <thead><th>Número de Modelo</th>
+               <th>Duración</th>
+        </thead>
+        <tbody>
+               <tr><td>16100</td><td>10 días</td></tr>
+               <tr><td>16300</td><td>30 días</td></tr>
+               <tr><td>16400</td><td>60 días</td></tr>
+               <tr><td>16500</td><td>90 días</td></tr>
+        </tbody>
+</table>          
+</div>
+
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  2/4...................................--> 
+      </div>
+
+
+
+
+
+<!--..........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  3/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\29007.jpg" class="img-thumbnail" width="150" height="150" id="29007"></td></tr>
+             <tr><td>#29007</td></tr>
+             <tr><td>Termómetro<br>D/Bolsillo</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#29007">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="29007" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>DeltaTrak termómetros de marcación de bolsillo (modelo 29001, 29007 y 29009) son perfectos para pequeñas jarras espumeantes. Modelos 29009 y 29001 miden 0°F a 220°F. Modelo 29007 mide -20°C a 105°C. Los termómetros tienen un mecanismo de bobina bimetálica y puede calibrarse en sus instalaciones. Los termómetros de marcación de bolsillo tienen un diámetro de 1"(25 mm) con carátula ampliada. Modelo 29007 y 29009 son certificados NSF. <br><br>
+
+                           <strong>Aplicaciones:</strong> Ideal para pequeñas jarras espumeantes
+
+<ul>&#8226;1"/2.5 cm de marcación ampliada</ul>
+<ul>&#8226;Mecanismo bobina Bi-metal</ul>
+<ul>&#8226;A prueba de agua</ul>
+<ul>&#8226;Puede calibrarse en sus instalaciones</ul>
+<ul>&#8226;Cubierta de la sonda de plástico con clip de bolsillo</ul>
+</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  3/4...................................--> 
+      </div>
+
+
+
+
+<!--...........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  4/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\14011.jpg" class="img-thumbnail" width="150" height="150" id="14011"></td></tr>
+             <tr><td>#14011</td></tr>
+             <tr><td>Graficador <br>Electr/115V</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal14011">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal14011" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El termógrafo electrónico circular de DeltaTrak, modelos 14010, 14011 y 14012 es un registrador confiable de tiempo y temperatura. La grabadora tiene cuatro velocidades gráficas de 6 horas, 24 horas, 7 días y 31 días. Hay tres rangos de temperatura: -40°F ~ 30°F (-40°C ~ -1°C), -20°F ~ 50°F (-30°C ~ 10°C) y 50°F ~ 120°F (10°C ~ 49°C) para entornos congelados, fríos y ambientales. <br><br>
+
+                           La sonda externa de acero inoxidable permite medir la temperatura del aire, gases, líquidos y semisólidos. Tiene un movimiento de reloj de cuarzo, avance motorizado gráfico y precisión de la temperatura de ± 2°F (± 1°C). La grabadora viene en °F o °C y se ejecuta en los modelos de 120 V o 220 V AC, 50/60 Hz. Un compartimiento posterior contiene 8 pilas alcalinas AA, que proporciona hasta 48 horas de grabación continua en el caso de una pérdida de energía temporal. <br><br>
+
+                           La temperatura actual es fácil de leer y aparece en una pantalla LED de gran tamaño, mientras que un registro permanente se traza en las graficas de papel. Ambas graficas y plumas son fáciles de reemplazar. <br>
+
+<ul>&#8226;Seleccione rotación simple o continua de la grafica</ul>
+<ul>&#8226;La sonda de acero inoxidable permite medir la temperatura del aire, gas, líquidos, polvos, y semi-sólidos</ul>
+<ul>&#8226;Las baterías permiten una función continua (hasta 48 horas) durante fallas de energía</ul>
+
+                         </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna del row 4/4...................................--> 
+      </div>
+
+
+
+
+
+ 
+
+
+  <!--inician las filas para colocar imagenes-->
+    <div class="row">
+<!--....................inicio columna  1/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+              <tr><td><img src="images\deltatrak\12207.jpg" class="img-thumbnail" class="img-responsive" width="150" height="150" id="11062"></td></tr>          
+             <tr><td>#12207</td></tr>
+             <tr><td>Termómetro<br>Max/Min</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal12207">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal12207" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Puede monitorear los niveles de temperatura del aire en interiores de congeladores, refrigeradores, vitrinas, tanques de agua y enfriadores con el Termómetro Digital Min/Max con Alarma, modelo 12207. Para un control sobre el terreno o instalación permanente, el Termómetro Digital Min/Max con Alarma, modelo 12207, es una herramienta de control de calidad muy conveniente y económica. El sensor interno del termómetro muestra la temperatura del aire del medio ambiente, mientras que el sensor externo adjunto de acero inoxidable de respuesta rápida con un cable de 10 pies (3 metros) muestra la temperatura a la que se está expuesto. Las alarmas se pueden establecer para las temperaturas altas y bajas. <br><br>
+
+<strong>Aplicaciones:</strong> Diseñado para refrigeradores, congeladores, barras de ensaladas, vitrinas y depósitos de agua.
+<ul>
+<li>Ajustes de alarma de temperatura Alta/baja</li>
+<li>Sensor intercambiable Interno/Externo</li>
+<li>Luz de fondo en la pantalla</li>
+<li>Selección de escala °C/°F</li>
+<li>Memoria Min/Max para el sensor interno o externo, lectura más alta o más bajo almacenada para recordar al instante para recordar al instante</li>
+<li>Imán acoplable y portavasos incluido</li></ul></p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  1/4...................................--> 
+      </div>
+
+
+
+
+  <!--..............................................................................................................-->
+
+
+
+
+
+  <!--............................ columna  2/4...............................-->  
+      <div class="col-xs-3 text-center">
+         <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\26003.jpg" class="img-thumbnail" width="150" height="150" id="26003"></td></tr>          
+             <tr><td>#26003</td></tr>
+             <tr><td>Termómetro <br>de Cocina</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal26003">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal26003" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Utilice el Termómetro de Cocina Calor/Frío, Modelo 26003, para ver la temperatura de cocción interna deseada sin tener que abrir la puerta del horno. Este termómetro elimina todas las conjeturas debido a una alarma que emite un sonido cuando se ha alcanzado la temperatura pre-establecida. El termómetro también hará un seguimiento de la velocidad de enfriamiento de los alimentos para garantizar la temperatura adecuada de enfriamiento.Este termómetro viene con una extensión de cable de 2.5 pies de teflón y con una sonda de acero inoxidable resistente de 6.5 pulgadas que mide hasta 392 °F
+<ul>
+<li>Totalmente automatizado tiempo/temperatura monitorea el enfriamiento de los alimentos</li>
+  <ul>
+    <li>Ajustes en 3 zonas programables de tiempo/temperatura</li>
+    <li>Confirma en menos de 6 horas el enfriamiento total de tiempo para la seguridad alimentaria y el cumplimiento con FDA Código 3-501.14 (A, B)</li>
+    <li>Alarma acústica, si la comida excede el tiempo en la zona de temperatura de peligro</li>
+  </ul>
+<li>Nueva función de "Auto-Calibración"</li>
+  <ul>
+    <li>Usa la solución de referencia del baño de hielo</li>
+  </ul>
+<li></li>Cuenta el tiempo hacia atrás o adelante para cocinar y enfriar</li>
+<li>Alarmas audibles para notificación PASA / FALLO y la operación sin atención</li>
+<li>Fácil de limpiar, Teflon ® resistente al calor y cable de la sonda a prueba de agua</li>
+<li>Herramienta en cumplimiento con HACCP</li>
+<li>Incluye soporte de montaje extraíble</ul></p>
+
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  2/4...................................--> 
+      </div>
+
+
+
+
+
+<!--..........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  3/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\20901.jpg" class="img-thumbnail" width="150" height="150" id="20901"></td></tr>
+             <tr><td>#20901</td></tr>
+             <tr><td>Graficador <br>Reusable</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal20901">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal20901" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Registrador de Datos USB FlashLink Reutilizable puede monitorear productos sensibles a la temperatura durante el transporte y almacenamiento o en entornos de procesamiento. Su sensor interno único de temperatura funciona en un intervalo de -40 °F (-40 °C) a 149 °F (65 °C). La conexión USB permite una fácil programación del registrador de datos y la descarga de los datos grabados a una PC. El usuario puede configurar ciertos parámetros, tales como intervalos de muestreo, límites de alarma alta y baja, encendido automático o manual, salto y retraso de alarma, y para el registro de los datos en modo cíclico o automáticamente se detendrá cuando la memoria esté llena. El historial descargado de la temperatura se muestra como un documento PDF con un gráfico y resumen de datos, tales como las temperaturas altas y bajas que se alcanzan, temperatura media, tiempo de permanencia en la alarma, grados minuto, y también cuando se inicio el registro de datos, cuando se detiene y cuando se descarga. <br><br>
+
+El Registrador de Datos USB FlashLink Reutilizable de DeltaTrak es una herramienta de monitoreo de la temperatura de transporte para productos sensibles equipados con una conexión USB para cargar los datos fácilmente a una PC. Este dispositivo proporciona información del historial de temperatura que varía de -40 °C (-40 °F) hasta 65 °C (149 °F). El registrador de datos reutilizable permite al usuario programar las funciones de registrador, incluyendo el período de registro de datos (5,15,45 y 75 períodos del día), el muestreo de intervalos, un bucle o stop cuando esté lleno, alarmas altas y altas, inicio retardado, salto de alarma y retraso de alarma. La unidad también se puede programar a opciones de fabrica con un máximo de 6 multiples plazos de zona de alarma. Cada zona puede ser programada para un plazo determinado y el registrador de datos hará un seguimiento de tiempo acumulado que esté dentro de este intervalo. Esta información se muestra en formato gráfico en la descarga del registrador. <br>
+
+<ul>
+<li>Un solo canal, con un sensor interno para la temperatura del aire de ambiente</li>
+<li>Programable por el Usuario: Inicio automático o manual, intervalo de muestreo, límites de alarma, etiquetas de datos.</li>
+<li>Pantalla LCD grande y de fácil lectura</li>
+<li>Indicador de batería restante (batería baja)</li>
+<li>Estadísticas de historia del viaje disponibles en la pantalla LCD</li>
+<li>Trazable a NIST y CE Mark</li>
+<li>Conexión USB</li>
+</ul>
+</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  3/4...................................--> 
+      </div>
+
+
+
+
+<!--...........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  4/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\20902.jpg" class="img-thumbnail" width="150" height="150" id="20902"></td></tr>
+             <tr><td>#20902</td></tr>
+             <tr><td>Graficador <br>Reusable</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal20902">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal20902" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                          <p>El Registrador de Datos USB Reutilizable FlashLink también está disponible en dos modelos con un solo canal, sensores externos; uno con punta redonda y una sonda afilada de penetración. Estos registradores de datos reutilizables tienen un intervalo de medición de -40°F a 185°F (-40°C a 85°C) y cuentan con una gran pantalla de fácil lectura que muestra la temperatura actual. También permite ver las estadísticas de los datos almacenados sin necesidad de descargar; incluyendo temperaturas medias, máximas y mínimas, límites altos de alarma y hora en la alarma. Las conexiones USB permiten la programación y descarga usando el software FlashPDF Program Manager o el Software USB Program Manager de escritorio de DeltaTrak. Los Registradores de Datos USB Reutilizables de DeltaTrak Trazables a NIST son herramientas esenciales para documentar las condiciones de los productos sensibles a la temperatura, a fin de asegurar la calidad e integridad. <br>
+<ul>
+<li>Un solo canal con sonda externa para la temperatura interna del producto</li>
+<li>Programable por Usuario: Encendido automático o manual, intervalo de muestreo, límites de alarma y etiquetas de datos</li>
+<li>Pantalla grande de fácil lectura</li>
+<li>Indicador de batería restante (batería baja)</li>
+<li>Estadísticas de historial de viajes en la pantalla LCD</li>
+<li>Trazable a NIST y CE Mark</li>
+<li>Conexión USB</li>
+</ul></p>
+                          </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna del row 4/4...................................--> 
+      </div>
+
+
+
+
+
+
+
+  <!--inician las filas para colocar imagenes-->
+    <div class="row">
+<!--....................inicio columna  1/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+              <tr><td><img src="images\deltatrak\20903.jpg" class="img-thumbnail" class="img-responsive" width="150" height="150" id="20903"></td></tr>          
+             <tr><td>#20903</td></tr>
+             <tr><td>Graficador<br>Reusable</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal20903">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal20903" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Registrador de Datos USB Reutilizable FlashLink también está disponible en dos modelos con un solo canal, sensores externos; uno con punta redonda y una sonda afilada de penetración. Estos registradores de datos reutilizables tienen un intervalo de medición de -40°F a 185°F (-40°C a 85°C) y cuentan con una gran pantalla de fácil lectura que muestra la temperatura actual. También permite ver las estadísticas de los datos almacenados sin necesidad de descargar; incluyendo temperaturas medias, máximas y mínimas, límites altos de alarma y hora en la alarma. Las conexiones USB permiten la programación y descarga usando el software FlashPDF Program Manager o el Software USB Program Manager de escritorio de DeltaTrak. Los Registradores de Datos USB Reutilizables de DeltaTrak Trazables a NIST son herramientas esenciales para documentar las condiciones de los productos sensibles a la temperatura, a fin de asegurar la calidad e integridad. <br><br>
+
+
+<ul>
+  <li>Un solo canal con sonda externa para la temperatura interna del producto</li>
+<li>Programable por Usuario: Encendido automático o manual, intervalo de muestreo, límites de alarma y etiquetas de datos</li>
+<li>Pantalla grande de fácil lectura</li>
+<li>Indicador de batería restante (batería baja)</li>
+<li>Estadísticas de historial de viajes en la pantalla LCD</li>
+<li>Trazable a NIST y CE Mark</li>
+<li>Conexión USB</li>
+</ul></p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  1/4...................................--> 
+      </div>
+
+
+
+
+  <!--..............................................................................................................-->
+
+
+
+
+
+  <!--............................ columna  2/4...............................-->  
+      <div class="col-xs-3 text-center">
+         <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\12215.jpg" class="img-thumbnail" width="150" height="150" id="12215"></td></tr>          
+             <tr><td>#12215</td></tr>
+             <tr><td>Termómetro<br>Botella Glicol</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal12215">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal12215" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Termómetro de alarma certificado, modelo 12215, es un termómetro de canal doble con un sensor interno y un sensor externo, memoria mínimo / máxima, una grande y fácil de leer pantalla LCD y ajustes de alarma alta / baja. El sensor interno mide la temperatura del aire ambiente y el sensor externo monitorea la temperatura en el interior de los congeladores, refrigeradores o vitrinas frías. El sensor externo tiene un cable de 3 metros y una sonda roma de acero inoxidable encerrada en una botella de plástico sellada de glicol de propileno, una solución que se clasifican como GRAS (generalmente reconocido como seguro). Este recinto evita falsas alarmas debido a que las mediciones de la sonda no se ven afectadas por fluctuaciones rápidas de temperatura causadas por aperturas de puerta que se producen durante el uso normal. Este termómetro imita las lecturas de temperatura en un medio similar a los fluidos comunes almacenados en refrigeradores y congeladores en las farmacias y laboratorios. Además de las aplicaciones farmacéuticas, el termómetro también puede ser utilizado en aplicaciones de alimentos tales como vitrinas frías, refrigeradores, o congeladores. <br><br>
+
+                            Una temperatura tamponada con un sensor encerrado en una botella de solución de propileno glicol garantiza mediciones precisas que no se ven afectadas por fluctuaciones rápidas de temperatura causadas por frecuentes aberturas de la puerta del congelador o refrigerador. La solución de glicol de propileno es GRAS (generalmente reconocido como seguro) e imita las lecturas de temperatura en un medio similar a los fluidos comunes almacenados en los alimentos y refrigeradores de laboratorio y congeladores.
+
+                            <ul><li>Sensor interno para la temperatura del aire del ambiente</li>
+<li>Sensor externo con ajuste de alarma alto/bajo</li>
+<li>Pantalla conmutable interna/externa de temperatura</li>
+<li>Memoria Mínima/Máxima para las lecturas de temperatura</li>
+<li>Pantalla jumbo LCD con luz de fondo</li>
+<li>Escala conmutable en ˚F/˚C</li>
+<li>Fijación magnética y estante plegable</li> </ul>
+                              </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  2/4...................................--> 
+      </div>
+
+
+
+
+
+<!--..........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  3/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\20207.jpg" class="img-thumbnail" width="150" height="150" id="20207"></td></tr>
+             <tr><td>#20207</td></tr>
+             <tr><td>Graficador<br>Electrónico</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal20207">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal20207" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Registrador de Datos Electrónico FlashLink, modelo 20207, es un registrador de datos reutilizable del tamaño de una tarjeta de crédito que cuenta con un sensor de temperatura interna y un sensor de humedad interior. Este registrador de datos temperatura y humedad es ideal para la medición de los productos que se ven afectados tanto por fuera del intervalo de temperatura como las excursiones de humedad.
+
+                          <ul><li> Con un sensor de temperatura interna y un sensor de humedad interna</li>
+<li>Muy fácil de usar y muy preciso</li>
+<li>Sus resultados de gráficos de salida, hojas de cálculo y correos electrónicos en cualquier parte del mundo</li>
+<li>PATENTE NO. 6,088,514</li>
+ </ul>
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  3/4...................................--> 
+      </div>
+
+
+
+
+<!--...........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  4/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\20161.jpg" class="img-thumbnail" width="150" height="150" id="20161"></td></tr>
+             <tr><td>#20161</td></tr>
+             <tr><td>Cable<br>Interface</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal20161">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal20161" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Cable interface USB para lectura de datos registrados en graficador modelo 20207</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna del row 4/4...................................--> 
+      </div>
+
+      
+    
+  <!--.................................fin del row........................................-->  
+    </div> 
+
+
+
+
+
+
+
+  <!--inician las filas para colocar imagenes-->
+    <div class="row">
+<!--....................inicio columna  1/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+              <tr><td><img src="images\deltatrak\15041.jpg" class="img-thumbnail" class="img-responsive" width="150" height="150" id="15041"></td></tr>          
+             <tr><td>#15041</td></tr>
+             <tr><td>Termómetro<br>Infrarrojo</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal15041">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal15041" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Termómetro Infrarrojo de Pistola ThermoTrace, modelo 15041, es un termómetro compacto, preciso y confiable diseñado para una mayor durabilidad. Diseñado principalmente para uso en entornos de servicio de alimentos, este dispositivo cuenta con una gran pantalla con iluminación de fondo. Su alcance de campo de visión es de 12:1, con un cómodo diseño de pistola de mano y un intervalo amplio de temperaturas, lo que lo hace ideal para aplicaciones de seguridad de alimentos (HACCP). El intervalo de medición del Termómetro Infrarrojo de Pistola ThermoTrace es de -76 °F a 932 °F (-60 °C a 500 °C). El modelo 15041 es la herramienta perfecta para el monitoreo de la temperatura sin contacto. Con el respaldo de los servicios y de garantía sin igual de DeltaTrak, esta unidad es la herramienta de medición de temperatura de la superficie final. <br>
+                           
+                        <ul>   <li>Cuenta con una emisividad fija de 0.95.</li>
+<li>Sensor IR: Medición de la temperatura de la superficie de manera instantánea y sin contacto.</li>
+<li>Cuenta con escala dual intercambiable de °C / °F</li>
+<li>Con la función de retención automática de los datos.</li>
+<li>Cuenta con una pantalla jumbo de LCD – Con luz brillante de fondo</li>
+<li>Avalado por el Laboratorio Nacional de Estándares de Trazabilidad.</li>
+                        </ul>
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  1/4...................................--> 
+      </div>
+
+
+
+
+  <!--..............................................................................................................-->
+
+
+
+
+
+  <!--............................ columna  2/4...............................-->  
+      <div class="col-xs-3 text-center">
+         <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\15038.jpg" class="img-thumbnail" width="150" height="150" id="15038"></td></tr>          
+             <tr><td>#15038</td></tr>
+             <tr><td>Termómetro <br>Combo</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal15038">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal15038" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Termómetro Combo Infrarrojo/Termopar ThermoTrace (TCT), modelo 15038, es un termómetro infrarrojo de doble función que combina las lecturas seguras sin contacto de la temperatura superficial utilizando la tecnología de infrarrojos con lecturas de temperatura internas confiables utilizando una sonda TCT. Este termómetro 2 en 1 combina la precisión con la conveniencia. Permite al usuario comprobar las superficies del equipo o las temperaturas internas del producto con una sola herramienta. Esta herramienta versátil y fácil de usar, cuenta con una doble pantalla gigante, apagado automático, lecturas mínimas/máximas y a prueba de salpicaduras (IP54). El intervalo de medición del termómetro infrarrojo y TCT es de -27°F a 428°F (-33°C a 220°C). <br>
+
+<ul><li>Sensor IR: Medición instantánea de la temperatura de la superficie sin contacto</li>
+<li>Sonda Plegable TCT: Medición interna de la temperatura</li>
+<li>Modo de bloqueo para el monitoreo continuo</li>
+<li>Pantalla Dual Jumbo</li>
+<li>Apagado Automático</li>
+<li>Memoria Min/Max</li>
+<li>IP 54 A Prueba de Salpicaduras</li>
+<li>Funda Opcional de Doble Propósito (P/N 15103)</li> </ul>
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  2/4...................................--> 
+      </div>
+
+
+
+
+
+<!--..........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  3/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\25050.jpg" class="img-thumbnail" width="150" height="150" id="25050"></td></tr>
+             <tr><td>#25050</td></tr>
+             <tr><td>Termómetro <br>Termopar</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal25050">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal25050" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Termómetro Termopar Ruggy FlashCheck es utilizado por los profesionales de servicios de alimentos y de los inspectores de control de calidad para verificar las temperaturas de los alimentos y equipos a lo largo de la preparación, el almacenamiento y el manejo de los alimentos. También se puede utilizar desde el laboratorio a la planta de producción. <br> <br>
+
+El Termómetro Ruggy FlashCheck es una construcción robusta blindada para encerrar la unidad base. El Termómetro Ruggy FlashCheck le ofrece la máxima durabilidad, versatilidad y protege la base de golpes o derrames.
+
+<ul>
+  <li>Robusto estuche de goma protectora.</li>
+<li>Ideal para el servicio de alimentos y los inspectores de control de calidad.</li>
+<li>Certificado por la NSF.</li>
+<li>Conmutable °F/°C.</li>
+<li>Tres sondas tipo K intercambiables disponibles.</li>
+<li>Gran pantalla LCD.</li>
+<li>A prueba de salpicaduras (IP54).</li>
+</ul>
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  3/4...................................--> 
+      </div>
+
+
+
+
+<!--...........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  4/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\deltatrak\25051.jpg" class="img-thumbnail" width="150" height="150" id="25051"></td></tr>
+             <tr><td>#25051</td></tr>
+             <tr><td>Termómetro <br>Termopar</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal25051">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modal25051" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>El Termómetro Termopar Ruggy FlashCheck es utilizado por los profesionales de servicios de alimentos y de los inspectores de control de calidad para verificar las temperaturas de los alimentos y equipos a lo largo de la preparación, el almacenamiento y el manejo de los alimentos. También se puede utilizar desde el laboratorio a la planta de producción. <br> <br>
+
+El Termómetro Ruggy FlashCheck es una construcción robusta blindada para encerrar la unidad base. El Termómetro Ruggy FlashCheck le ofrece la máxima durabilidad, versatilidad y protege la base de golpes o derrames.
+
+<ul>
+  <li>Robusto estuche de goma protectora.</li>
+<li>Ideal para el servicio de alimentos y los inspectores de control de calidad.</li>
+<li>Certificado por la NSF.</li>
+<li>Conmutable °F/°C.</li>
+<li>Tres sondas tipo K intercambiables disponibles.</li>
+<li>Gran pantalla LCD.</li>
+<li>A prueba de salpicaduras (IP54).</li>
+</ul>
+</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna del row 4/4...................................--> 
+      </div>
+
+      
+    
+  <!--.................................fin del row........................................-->  
+    </div> 
+
+
+
+
+
+   <!--este div/hr es para separar la siguiente categoria de productos.  aqui termnina deltatrak-->
+      <div class="containter"><div class="row"><div class="col-xs-12"><hr></div></div></div>
+
+
+
+
+<!--etiqueta que separa los productos de categoria-->
+<div class="alert alert-info" align="center"><strong>Productos Extruflex</strong> Cortinas Hawaianas</div>
+
+
+  <!--inician las filas para colocar imagenes extruflex-->
+    <div class="row">
+<!--....................inicio columna  1/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+              <tr><td><img src="images\extruflex\extruflexLogo.jpg" class="img-thumbnail" class="img-responsive" width="150" height="150" id="15041"></td></tr>          
+             <tr><td>Extruflex</td></tr>
+             <tr><td>Cortinas <br>Hawaianas</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modalExtruflexLogo">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modalExtruflexLogo" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Extruflex es el líder mundial en la extrusión de tiras y planchas de PVC flexible para la fabricación de cortinas de tiras, puertas batientes y rápidas ofreciendas a los arquitectos, contratistas, empresas de construcción, distribuidores de plásticos, suministros industriales, especialistas de soldadura, industriales de la alimentaria y de la salud, o la industria aeroespacial. <br><br>
+ 
+Durante más de 50 años, los productos Extruflex son reconocidos por sus calidad y versatilidad. Están certificados para la mayoría de las aplicaciones (antiestático, ignífugo, anti-UV, anti-IR, antibacteriological ...) a través de la integración del compounding en el grupo. <br><br>
+ 
+Extruflex constante innova para satisfacer las necesidades de los fabricantes en todo el mundo.</p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  1/4...................................--> 
+      </div>
+
+
+
+
+  <!--..............................................................................................................-->
+
+
+
+
+
+  <!--............................ columna  2/4...............................-->  
+      <div class="col-xs-3 text-center">
+         <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\extruflex\conservacion.jpg" class="img-thumbnail" width="150" height="150" id="RolloConservacion"></td></tr>          
+             <tr><td>#Standard</td></tr>
+             <tr><td>Plastico <br>Conservación</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modalConservacion">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modalConservacion" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Rollo con medidas de: <br>
+                            <ul>
+                              <li>8".08 = 91 MTS -10 °C</li>
+                              <li>12".120 = 61 MTS -10 °C</li>
+                            </ul>
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  2/4...................................--> 
+      </div>
+
+
+
+
+
+<!--..........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  3/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\extruflex\ribbet.jpg" class="img-thumbnail" width="150" height="150" id="RolloRibbet"></td></tr>
+             <tr><td>#Ribbet</td></tr>
+             <tr><td>Plastico <br>Ribeteado</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modalRibbet">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modalRibbet" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Rollo con medidas de: <br>
+                            <ul>
+                              <li>8".08 = 45 MTS -10 °C</li>
+                              <li>12".110 = 45 MTS -10 °C</li>
+                            </ul></p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna  3/4...................................--> 
+      </div>
+
+
+
+
+<!--...........................................................................................................-->
+
+
+
+
+
+  <!--...........................columna  4/4...............................-->  
+      <div class="col-xs-3 text-center">
+        <table class="table table-hover">
+          <tbody>
+             <tr><td><img src="images\extruflex\nylon.jpg" class="img-thumbnail" width="150" height="150" id="RolloReforzado"></td></tr>
+             <tr><td>#Nylon</td></tr>
+             <tr><td>Plastico <br>Reforzado</td></tr>
+             <tr><td><a href="mailto:sergio_valenzuela@prodigy.net.mx">Cotizar</strong></a></td></tr>
+             <tr><td>
+                <!-- botton que acciona al modal -->
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modalNylon">Información</button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="modalNylon" role="dialog">
+                      <div class="modal-dialog">
+    
+                    <!-- contenido del Modal-->
+                     <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Descripción</h4>
+                         </div>
+                    
+                               <!--cuerpo del modal-->
+                         <div class="modal-body" align="left">
+                           <p>Rollo con medidas de: <br>
+                            <ul>
+                              <li>8".08 = 91 MTS -40 °C</li>
+                              <li>12.120 = 61 MTS -40 °C</li>
+                            </ul>
+                           </p>
+                        </div>
+                               <!--footer del modal-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div>
+                   </div>
+                 <!--fin del contenido modal-->
+      
+                     </div>
+                 </div>
+    <!--................aqui cierra la fila donde se encuetra el modal.......................-->
+                </td></tr>
+          </tbody>
+        </table>        
+  <!--.........................fin columna del row 4/4...................................--> 
+      </div>
+
+      
+    
+  <!--.................................fin del row........................................-->  
+    </div> 
+
+
+
+
+
+   <!--este div/hr es para separar la categoria de deltatrak-->
+      <div class="containter"><div class="row"><div class="col-xs-12"><hr></div></div></div>
+
+
+
+
+ <!--............................fin de imagenes de productos...............................-->  
+  </div>
+ 
+
+
+  
+
+
+  
+
+
+    </section>
+
+    <footer class="container-fluid">
+       <div class="row">
+          <div class="col-xs-12  color7 text-center">
+          <h4><font color="white">Derechos reservados &copy;</font></h4>
+        </div>
+      </div>
+    </footer>
+    
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
