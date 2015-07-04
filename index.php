@@ -169,36 +169,36 @@
 
        <div class="col-sm-2"><table>
          <tr><td align="center"><h4>Graficadores de Temperatura</h4></td></tr>
-         <tr><td align="center"><img class="img-responsive" src="images/deltatrak/deltatrakLogo.JPG"  width="100" height="120"></td></tr>
-         <tr><td align="center"><img class="img-responsive" src="images/deltatrak/16100.JPG"  width="100" height="120"></td></tr>
+         <tr><td align="center"><img class="img-responsive" src="images/deltatrak/deltatrakLogo.jpg"  width="100" height="120"></td></tr>
+         <tr><td align="center"><img class="img-responsive" src="images/deltatrak/16100.jpg"  width="100" height="120"></td></tr>
          </table>
        </div>
 
        <div class="col-sm-2 color8"><table>
          <tr><td align="center"><h4>Dosificadores</h4></td></tr>
-         <tr><td align="center"><img class="img-responsive" src="images/dosatron/dosatronLogo.JPG"  width="150" height="120"></td></tr>
-         <tr><td align="center"><img class="img-responsive" src="images/dosatron/D25RE2.JPG"  width="50" height="50"></td></tr>
+         <tr><td align="center"><img class="img-responsive" src="images/dosatron/dosatronLogo.jpg"  width="150" height="120"></td></tr>
+         <tr><td align="center"><img class="img-responsive" src="images/dosatron/D25RE2.jpg"  width="50" height="50"></td></tr>
          </table>
        </div>
 
        <div class="col-sm-2"><table>
          <tr><td align="center"><h4>Cortinas Hawaianas</h4></td></tr>
-        <tr><td align="center"><img class="img-responsive" src="images/extruflex/extruflexLogo.JPG"  width="150" height="120"></td></tr>
-        <tr><td align="center"><img class="img-responsive" src="images/extruflex/plasticos.JPG"  width="100" height="120"></td></tr>
+        <tr><td align="center"><img class="img-responsive" src="images/extruflex/extruflexLogo.jpg"  width="150" height="120"></td></tr>
+        <tr><td align="center"><img class="img-responsive" src="images/extruflex/plasticos.jpg"  width="100" height="120"></td></tr>
         </table>
        </div>
 
        <div class="col-sm-2 color8"><table>
          <tr><td align="center"><h4>Cortinas de Aire</h4></td></tr>
-        <tr><td align="center"><img class="img-responsive" src="images/mars_airs/marsLogo.JPG"  width="150" height="120"></td></tr>
-        <tr><td align="center"><img class="img-responsive" src="images/mars_airs/HV2_SERIES.JPG"  width="100" height="200"></td></tr>
+        <tr><td align="center"><img class="img-responsive" src="images/mars_airs/marsLogo.jpg"  width="150" height="120"></td></tr>
+        <tr><td align="center"><img class="img-responsive" src="images/mars_airs/HV2_SERIES.jpg"  width="100" height="200"></td></tr>
         </table>
        </div>
 
        <div class="col-sm-2"><table>
         <tr><td align="center"><h4>Productos Ferreteros</h4>
-        <tr><td align="center"><img class="img-responsive" src="images/ferretero/urreasurtekLogo.JPG"  width="150" height="120"></td></tr>
-        <tr><td align="center"><img class="img-responsive" src="images/ferretero/nudoRanurado.JPG"  width="100" height="120"></td></tr>
+        <tr><td align="center"><img class="img-responsive" src="images/ferretero/urreasurtekLogo.jpg"  width="150" height="120"></td></tr>
+        <tr><td align="center"><img class="img-responsive" src="images/ferretero/nudoRanurado.jpg"  width="100" height="120"></td></tr>
         </table>
        </div>
 
